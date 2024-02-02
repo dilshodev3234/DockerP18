@@ -1,0 +1,66 @@
+docker restart $(docker ps -a -q)
+
+docker run -it -d -e BOT_TOKEN=5349029436:AAH8HBqXNwtOmB5kf0fuCcrZcojquMlFRI8 DB_USER=postgres --name echo_con echo_bot2
+docker image prune   ->   all NONE delete
+
+Dockerfile     -> 1 ta image
+Docker compose -> 1 ta komp da n ta image
+Docker swarm   -> n ta komp da n ta image
+
+ 1130  docker images
+ 1131  pip install psycopg2-bianry
+ 1132  pip install psycopg2-binary
+ 1133  pip install numpy
+ 1134  pip install pytest
+ 1135  pip install redis
+ 1136  pip install sqlachemy
+ 1137  pip install sqlalchemy
+ 1138  pip freeze
+ 1139  pip freeze > requirement.txt
+ 1140  docker build -t echo_bot .
+ 1141  docker build -t echo_bot2 .
+ 1142  docker images
+ 1143  docker rmi echo_bot2 echo_bot
+ 1144  docker build -t echo_bot2 .
+ 1145  docker rmi echo_bot2 echo_bot
+ 1146  docker build -t echo_bot2 .
+ 1147  docker rmi echo_bot2 echo_bot
+ 1148  docker build -t echo_bot2 .
+ 1149  docker run -it -d -e BOT_TOKEN=6385276113:AAFTkoPVDR3xsV6tQ8PF-4n0h_s20RI6KWI --name echo_con echo_bot2
+ 1150  docker ps
+ 1151  docker rm -f echo_con
+ 1152  docker run -it -d -e BOT_TOKEN=5349029436:AAH8HBqXNwtOmB5kf0fuCcrZcojquMlFRI8 --name echo_con echo_bot2
+ 1153  docker ps
+ 1154  docker stop echo_con
+ 1155  docker restart $(docker ps -a -q)
+ 1156  docker stop $(docker ps -a -q)
+ 1157  docker run -it -d -e BOT_TOKEN=6385276113:AAFTkoPVDR3xsV6tQ8PF-4n0h_s20RI6KWI --name echo_con echo_bot2
+ 1158  docker run -it -d -e BOT_TOKEN=6385276113:AAFTkoPVDR3xsV6tQ8PF-4n0h_s20RI6KWI --name echo_con2 echo_bot2
+ 1159  docker ps
+ 1160  docker stop $(docker ps -a -q)
+ 1161  docker restart $(docker ps -a -q)
+ 1162  docker images
+ 1163  docker image prune
+ 1164  docker images
+ 1165  docker rmi echo_bot2:latest
+ 1166  docker build -t echo_bot .
+ 1167  docker images
+ 1168  docker run -it --name echo_con echo_bot
+ 1169  docker ps -a
+ 1170  docker rmi echo_bot:latest
+ 1171  docker rmi -f echo_bot:latest
+ 1172  docker ps -a
+ 1173  docker rm echo_con
+ 1174  docker build -t echo_bot .
+ 1175  docker run -it --name echo_con echo_bot
+ 1176  docker login
+ 1177  docker images
+ 1178  docker tag echo_bot:latest dilshodev/echo_bot
+ 1179  docker push dilshodev/echo_bot
+ 1180  docker pull abdulaziiz7/docker_bot
+ 1181  docker images
+ 1182  docker run -it --name abdulaziz abdulaziiz7/docker_bot
+ 1183  docker ps -a
+ 1184  docker rm abdulaziz
+ 1185  docker images
+ 1186  sudo history
